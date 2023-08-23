@@ -1,0 +1,61 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header>h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.menu_bar>table {
+    width: 100%;
+    background-color: white;
+    color: white;
+}
+
+.menu_bar th{
+    border: 3px solid gray;
+    background-color: gray;
+}
+
+th:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.image >img {
+    border: 1px solid black;
+    height: 568px;
+}
+
+.image {
+    padding-top: 10px;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.paragraph {
+    border: 1px solid black;
+}
+
+.paragraph p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer > table{
+    padding-top: 20px;
+    width: 100%;
+    background-color: white;
+    color: gray;
+}
+
+.footer th {
+    background-color: white;
+}

@@ -1,0 +1,128 @@
+body {
+    margin: 100px;
+}
+
+
+header {
+    display: flex;
+    gap: 500px;
+}
+
+h1 {
+    display: flex;
+    font-family: serif;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.head_button {
+    border: 1px solid #008D96;
+    color: #008D96;
+    background-color: transparent;
+    border-radius: 8px;
+    width: 120px;
+    height: 45px;
+}
+
+.head_button:hover {
+    background-color: #008D96;
+    color: white;
+}
+
+.card {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.course_img {
+    display: flex;
+    padding: 10px;
+}
+
+.course_type {
+    display: inline-block;
+    background-color: rgba(246,175,19,0.5);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.course_type_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.continues {
+    /* display: flex; */
+    width: 20px;
+    height: 20px;
+}
+
+.course_type_line div {
+    display: flex;
+}
+
+.lesson_length {
+    display: flex;
+}
+
+.underline {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+}
+
+.lorem {
+    display: inline-block;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.play_button {
+    background-color: #008D96;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.all_courses_button > button {
+    background-color: #008D96;
+    color: white;
+    border-radius: 32px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+}
+
+
+.all_courses_button {
+    display: flex;
+    justify-content: center;
+}
+
+.all_courses_button >button:hover {
+    background-color: transparent;
+    border: 1px solid #008D96;
+    color: #008D96;
+}
